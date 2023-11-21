@@ -9,7 +9,7 @@
 
 
 ; Option 1:
-#Include <AHKv2_screenshot_tools>
+#Include <AHKv2_Screenshot_Tools>
 
 ; Option 2:
 ; #Include <Gdip_All>
