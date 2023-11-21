@@ -1,3 +1,5 @@
+#Requires AutoHotkey v2.0
+
 ;
 ;################################################################################################
 ;        Takes a screenshot, names it and puts it in folder called "ScreenShots"
