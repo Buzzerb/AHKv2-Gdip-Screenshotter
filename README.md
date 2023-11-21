@@ -23,14 +23,16 @@ Screenshots will be saved to the screenshot folder in the script directory
 
 
 # Manifest:
+'AHKv2_Screenshotter.ahk': Example functions to take and save screenshots. Requires either 'Gdip_trimmed_screenshot_tools.ahk' or both of 'Gdip_All.ahk' and 'Gdip_screenshot_ext.ahk' as libraries
+'AHKv2_Screenshotter_quickstart.ahk': Self-contained version of 'AHKv2_Screenshotter.ahk' with pre-made hotkeys for easy taking and saving of various types of screenshot
+Libraries inside folder lib:
 'Gdip_All.ahk': Clone of 'Gdip_All.ahk' from [(AHKv2-Gdip)](https://github.com/buliasz/AHKv2-Gdip)
 'Gdip_screenshot_ext.ahk': Extra functions that extend GDI+ specifically for taking screenshots
 'Gdip_trimmed_screenshot_tools.ahk': Trimmed version of 'Gdip_All.ahk' with only functions relevent for taking and saving screenshots included, plus the extensions in the above file
-'AHKv2_Screenshotter.ahk': Example functions to take and save screenshots. Requires either 'Gdip_trimmed_screenshot_tools.ahk' or both of 'Gdip_All.ahk' and 'Gdip_screenshot_ext.ahk'
-'AHKv2_Screenshotter_quickstart.ahk': Self-contained script for easy taking and saving of various types of screenshot
+
 
 # Retained GDI+ Functions related to screenshots:
-WIP, read comments of quickstart for best current info
+WIP, read quickstart for best current info
 
 # Examples
 WIP, read comments of quickstart for best current info
