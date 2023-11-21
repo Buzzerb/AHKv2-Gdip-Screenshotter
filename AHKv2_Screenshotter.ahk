@@ -1,16 +1,17 @@
 ;#####################################################################################
 ; Startup:
 ;#####################################################################################
-; Assumes Gdip_All and Gdip_screenshot_ext are available libraries
-; However Gdip_trimmed_screenshot_tools is a sufficent replacement for both Gdip_All and Gdip_screenshot_ext
+; Assumes AHKv2_screenshot_tools is an available library
+; However, if you are already using GDI+, you may prefer to use both Gdip_All and Gdip_Screenshot_Tools_Ext instead
 ; Comment in and out include statments as required
 
+
 ; Option 1:
-#Include <Gdip_All>
-#Include <Gdip_screenshot_ext>
+#Include <AHKv2_screenshot_tools>
 
 ; Option 2:
-;#Include <Gdip_trimmed_screenshot_tools>
+; #Include <Gdip_All>
+; #Include <Gdip_Screenshot_Tools_Ext>
 
 pToken := Gdip_Startup()
 OnExit(shutdown, )
