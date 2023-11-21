@@ -1,7 +1,16 @@
 ;#####################################################################################
 ; Startup:
+;#####################################################################################
+; Assumes Gdip_All and Gdip_screenshot_ext are available libraries
+; However Gdip_trimmed_screenshot_tools is a sufficent replacement for both Gdip_All and Gdip_screenshot_ext
+; Comment in and out include statments as required
 
+; Option 1:
+#Include <Gdip_All>
+#Include <Gdip_screenshot_ext>
 
+; Option 2:
+;#Include <Gdip_trimmed_screenshot_tools>
 
 pToken := Gdip_Startup()
 OnExit(shutdown, )
