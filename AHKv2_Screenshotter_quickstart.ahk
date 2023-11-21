@@ -131,7 +131,7 @@ shutdown(A_ExitReason, ExitCode)
 
 
 ;#####################################################################################
-; Extension Modified GDI+ Functions for Screenshots:
+; Extension GDI+ Functions for Screenshots:
 ;#####################################################################################
 ; extended by Buzzerb 21/11/2023
 ;
