@@ -4,10 +4,10 @@
 ; created by Buzzerb 21/11/2023
 ;
 ; Inclues functions to screenshot only the client area of an application, and to use 
-; an unofficially documented PrintWindow flag to get a rendered screenshot of an application
+; an unofficially documented PrintWindow flag to get a rendered screenshot of an application,
 ; which is required by most hardware accelerated apps to screenshot correctly
 ; Heavily based on GDI+ for AHKv2 by buliasz 21/11/2023
-; Base Gdip_All code available from: https://github.com/buliasz/AHKv2-Gdip
+; Requires Gdip_All, available from: https://github.com/buliasz/AHKv2-Gdip
 
 
 ;#####################################################################################
